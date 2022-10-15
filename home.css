@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    position: absolute;
+    color: #E5E5E5;
+    width: 1440px;
+    height: 1328px;
+}
+
+.section-logo {
+    display: flex;
+    width: 215px;
+    height: 32px;
+    margin: 42px 984px 102px 289px;
+    gap: 16px;
+}
+
+.section-logo p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #737380;
+}
