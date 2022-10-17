@@ -1,31 +1,433 @@
+/* Reset do Site*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-.container {
-    display: flex;
-    position: absolute;
-    color: #E5E5E5;
+/*Configurações de tamanho e cor do body*/
+body {
     width: 1440px;
     height: 1328px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F2F2FA;
 }
+/* Fonte importada do google*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/* cpnfigurações de  cor e tamanho da section*/
+.container {
+    position: absolute;
+    background-color: #F2F2FA;
+    width: 1440px;
+    height: 1328px;
+}   
+/*configurações de tamanho e posicionamento da section logo*/
 .section-logo {
+    position: absolute;
     display: flex;
     width: 215px;
     height: 32px;
-    margin: 42px 984px 102px 289px;
+    margin: 42px 984px 100px 241px;
     gap: 16px;
 }
-
-.section-logo p {
+/* posicionamento do texto da logo*/
+.section-logo .text {
+    display: flex;
+}
+/*configurações de formatação da logo 1ºparte*/
+.section-logo .text p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     color: #737380;
+}
+/*configurações de formatação da logo 2ºparte*/
+.section-logo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A8A8B3;
+}
+/* xonfigurações de tamanho da section info*/
+.section-info {
+    display: flex;
+    width: 714px;
+    margin: 172px 766px 40px 241px;
+}
+/*configurações de formatação da section info*/
+.section-info p {
+    padding-bottom: 40px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #3A3A3A;
+}
+/*configurações de tamanho e posicionamento dos inputs*/
+.section-text {
+    display: flex;
+    width: 714px;
+    height: 72px;
+    margin: 0 486px 120px 240px;
+    border: none;
+}
+/*configurações do input de pesquisa*/
+.section-text input[type="text"] {
+    width: 504px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border-width: 0 0 0 0;
+}
+/*configurações de fotmatação do input pesquisa*/
+.section-text input[value="Digite Aqui"] {
+
+    color: #A8A8B3;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 29px;
+    
+}
+/*configurações do input submit*/
+.section-text input[type="submit"] {
+    width: 210px;
+    height: 72px;
+    color:#FFFFFF;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #04D361;
+    border-width: 0 0 0 0;
+    
+}
+/*configurações de fotmatação do input submit*/
+.section-text input[value="Pesquisar"] {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*Configurações de tamanho e posicionamento dos cards geral*/
+.section-cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 714px;
+    height: 752px;
+    margin: 0 486px 60px 240px;
+}
+
+/*configurações de tamanho e posição do card1*/
+.card1 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card1*/
+.card1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card1*/
+.card1 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card1*/
+.card1 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card1*/
+.card1 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
+/*configurações de tamanho e posição do card2*/
+.card2 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card2*/
+.card2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card2*/
+.card2 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card2*/
+.card2 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card2*/
+.card2 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
+/*configurações de tamanho e posição do card3*/
+.card3 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card3*/
+.card3 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card3*/
+.card3 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card3*/
+.card3 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card3*/
+.card3 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
+/*configurações de tamanho e posição do card4*/
+.card4 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card4*/
+.card4 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card4*/
+.card4 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card4*/
+.card4 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card4*/
+.card4 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
+/*configurações de tamanho e posição do card5*/
+.card5 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card5*/
+.card5 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card5*/
+.card5 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card5*/
+.card5 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card5*/
+.card5 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
+/*configurações de tamanho e posição do card6*/
+.card6 {
+    display: flex ;
+    width: 714px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+}
+/* configuração da iamgem do card6*/
+.card6 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px auto 16px 14.1px;
+}
+/*configuração do nome de usuario do card6*/
+.card6 .text h2 {
+    width: 242px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 30px 352px 4px 22.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card6*/
+.card6 h3 {
+    width: 163px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 4px 448px 29px 22.1px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card6*/
+.card6 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
 }

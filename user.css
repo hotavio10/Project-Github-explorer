@@ -1,0 +1,113 @@
+/* Reset do Site*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Configurações de tamanho e cor do body*/
+body {
+    width: 1440px;
+    height: 1328px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F2F2FA;
+}
+/* Fonte importada do google*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* cpnfigurações de  cor e tamanho da section*/
+.container {
+    position: absolute;
+    background-color: #F2F2FA;
+    width: 1440px;
+    height: 1328px;
+}   
+/*configurações de tamanho e posicionamento da section logo*/
+.section-logo {
+    position: absolute;
+    display: flex;
+    width: 215px;
+    height: 32px;
+    margin: 42px 984px 100px 241px;
+    gap: 16px;
+}
+/* posicionamento do texto da logo*/
+.section-logo .text {
+    display: flex;
+}
+/*configurações de formatação da logo 1ºparte*/
+.section-logo .text p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #737380;
+}
+/*configurações de formatação da logo 2ºparte*/
+.section-logo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A8A8B3;
+}
+
+
+
+
+/*Configurações de tamanho e posicionamento dos cards geral*/
+.section-cards {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 979px;
+    margin: 0 486px 60px 240px;
+}
+
+/*configurações de tamanho e posição do card6*/
+.card6 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 115px;
+
+}
+
+/*configuração do nome de usuario do card6*/
+.card6 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    margin: 28px 507px 8px 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*configuração do texto do card6*/
+.card6 h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    margin: 8px 801px 27px 24px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/*configuração da seta do card6*/
+.card6 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 674px;
+}
