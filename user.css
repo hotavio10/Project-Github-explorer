@@ -53,28 +53,407 @@ body {
     line-height: 28px;
     color: #A8A8B3;
 }
+/*Configurações de tamanho e posicionamento da section return*/
+.section-return {
+    display: flex;
+    width: 64px;
+    height: 19px;
+    margin: 46px 239px 109px 1157px;
+}
+/*Configurações de tamanho e posicionamento da seta da section return*/
+.section-return #seta {
+    display: flex;
+    width: 6px;
+    height: 10px;
+    padding: 6px;
+    box-shadow: 2px -2px 0 1px #A8A8B3 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    margin: auto 12px 1px 0px;
+}
+/* configuração de tamanho e posicionamento da palavra da section return*/
+.section-return .text p {
+    width: 44px;
+    height: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A8A8B3;
+    margin: 3.5px 1px 5px 0px;
+}
 
+/*configurações de tamanho e posição do usuario*/
+.section-usuario {
+    display: flex ;
+    width: 514px;
+    height: 120px;
+    margin-bottom: 16px;
+    margin: 82px 686px 40px 240px;
+}
 
+/* configuração da imagem do usuario*/
+.section-usuario img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    margin: 1px 13px 31px 1px;
+}
 
+/*configuração do nome de usuario*/
+.section-usuario .text h2 {
+    width: 362px;
+    height: 242x;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 22px 0px 12px auto;
+}
+
+/*configuração do texto do card1*/
+.section-usuario .text h3 {
+    width: 162px;
+    height: 23px;
+    color: #737380;
+    margin: auto 200px 21px auto;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+}   
+/*Configurações de tamanho e posicionamento da section com numeros*/
+.section-activity {
+    display: flex;
+    width: 416px;
+    height: 69px;
+    margin: 40px 784px 80px 240px;
+}
+/*Configurações de tamanho e posicionamento dos numeros de estrelas*/
+.section-activity .stars h2 {
+    width: 83px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3D3D4D;
+    margin: auto 80px 4px auto;
+}
+/*Configurações de tamanho e posicionamento da palavra estrelas*/
+.section-activity .stars h3 {
+    width: 47px;
+    height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6C6C80;
+    margin: auto 117px auto auto;
+}
+/*Configurações de tamanho e posicionamento dos numeros de forks*/
+.section-activity .forks h2 {
+    width: 42px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3D3D4D;
+    margin: auto 80px 4px auto;
+}
+/*Configurações de tamanho e posicionamento da palavra forks*/
+.section-activity .forks h3 {
+    width: 50px;
+    height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6C6C80;
+    margin: auto 71px auto auto;
+}
+/*Configurações de tamanho e posicionamento dos numeros de issues*/
+.section-activity .issues h2 {
+    width: 42px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #3D3D4D;
+    margin: auto 89px 4px auto;
+}
+/*Configurações de tamanho e posicionamento da palavra issues*/
+.section-activity .issues h3 {
+    width: 131px;
+    height: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6C6C80;
+    margin: auto;
+}
 
 /*Configurações de tamanho e posicionamento dos cards geral*/
 .section-cards {
-    position: absolute;
+
     display: flex;
+    position: absolute;
     flex-direction: column;
     width: 960px;
     height: 979px;
     margin: 0 486px 60px 240px;
 }
 
+/*configurações de tamanho e posição do card1*/
+.section-cards .card1 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+/*configuração do nome de usuario do card1*/
+.card1 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 28px 507px 8px 24px;
+}
+/*configuração do texto do card1*/
+.card1 .text h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto 801px 27px 24px;
+}  
+/*configuração da seta do card1*/
+.card1 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 920px;
+}
+
+/*configurações de tamanho e posição do card2*/
+.section-cards .card2 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+/*configuração do nome de usuario do card2*/
+.card2 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 28px 507px 8px 24px;
+}
+/*configuração do texto do card2*/
+.card2 .text h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto 801px 27px 24px;
+}  
+/*configuração da seta do card2*/
+.card2 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 920px;
+}
+
+/*configurações de tamanho e posição do card3*/
+.section-cards .card3 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+/*configuração do nome de usuario do card3*/
+.card3 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 28px 507px 8px 24px;
+}
+/*configuração do texto do card3*/
+.card3 .text h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto 801px 27px 24px;
+}  
+
+/*configuração da seta do card3*/
+.card3 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 920px;
+}
+
+/*configurações de tamanho e posição do card4*/
+.section-cards .card4 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+/*configuração do nome de usuario do card4*/
+.card4 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 28px 507px 8px 24px;
+}
+/*configuração do texto do card4*/
+.card4 .text h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto 801px 27px 24px;
+}  
+/*configuração da seta do card4*/
+.card4 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 920px;
+}
+
+
+/*configurações de tamanho e posição do card5*/
+.section-cards .card5 {
+    display: flex ;
+    width: 960px;
+    height: 112px;
+    background-color: #FFFFFF;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+/*configuração do nome de usuario do card5*/
+.card5 .text h2 {
+    width: 429px;
+    height: 28px;
+    color: #3D3D4D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 28px 507px 8px 24px;
+}
+/*configuração do texto do card5*/
+.card5 .text h3 {
+    width: 135px;
+    height: 21px;
+    color: #A8A8B3;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto 801px 27px 24px;
+}  
+/*configuração da seta do card5*/
+.card5 #seta {
+    position: absolute;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #C9C9D4 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(-140deg);
+    margin: 47.25px 30px 47.25px 920px;
+}
+
+
 /*configurações de tamanho e posição do card6*/
-.card6 {
+.section-cards .card6 {
     display: flex ;
     width: 960px;
     height: 112px;
     background-color: #FFFFFF;
     margin-bottom: 115px;
-
+    border-radius: 5px;
 }
 
 /*configuração do nome de usuario do card6*/
@@ -82,26 +461,26 @@ body {
     width: 429px;
     height: 28px;
     color: #3D3D4D;
-    margin: 28px 507px 8px 24px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 28px;
+    margin: 28px 507px 8px 24px;
 }
 /*configuração do texto do card6*/
-.card6 h3 {
+.card6 .text h3 {
     width: 135px;
     height: 21px;
     color: #A8A8B3;
-    margin: 8px 801px 27px 24px;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 21px;
-}
-/*configuração da seta do card6*/
+    margin: auto 801px 27px 24px;
+} 
+/*configuração da seta do card6*/ 
 .card6 #seta {
     position: absolute;
     padding: 10px;
@@ -109,5 +488,8 @@ body {
     border: solid transparent;
     border-width: 0 0 2px 2px;
     transform: rotate(-140deg);
-    margin: 47.25px 30px 47.25px 674px;
+    margin: 47.25px 30px 47.25px 920px;
 }
+
+
+
