@@ -1,7 +1,7 @@
 # Github-explorer
  
 
-![preview](./github/preview.png)
+![preview](./github/preview.png.png)
 
 
 
